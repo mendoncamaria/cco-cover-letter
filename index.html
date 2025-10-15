@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chief Chocolate Officer Cover Letter</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles for aesthetic */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #F8F5EE; /* Creamy background */
+        }
+        .chocolate-bar {
+            background: linear-gradient(135deg, #4A2B2A 0%, #6D4C41 100%); /* Deep chocolate brown */
+            box-shadow: 0 10px 30px rgba(74, 43, 42, 0.4);
+        }
+        .golden-text {
+            color: #FFD700; /* Gold */
+        }
+        .interactive-button {
+            transition: all 0.3s ease;
+            box-shadow: 0 4px #9b6c2c;
+        }
+        .interactive-button:hover {
+            box-shadow: 0 2px #9b6c2c;
+            transform: translateY(2px);
+        }
+        .interactive-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.7s ease-in-out, padding 0.5s ease;
+        }
+        .interactive-content.active {
+            max-height: 500px; /* Large enough to show content */
+            padding-top: 1rem;
+        }
+    </style>
+</head>
+<body class="p-4 md:p-8">
+
+    <div class="max-w-4xl mx-auto rounded-xl overflow-hidden chocolate-bar p-6 md:p-10 lg:p-12">
+        <header class="text-center mb-10">
+            <h1 class="text-3xl md:text-5xl font-extrabold mb-2 text-white">
+                <span class="golden-text">The Everything Mix</span> for Chief Chocolate Officer
+            </h1>
+            <p class="text-lg md:text-xl text-yellow-200">
+                Blending Frontend Development with the Art of Delight
+            </p>
+        </header>
+
+        <!-- Main Letter Content -->
+        <div class="space-y-6 text-lg text-gray-100">
+            <p>
+                Dear Careem Hiring Team,
+            </p>
+            <p>
+                I am a Frontend Developer, yet I'm applying to be your very first Chief Chocolate Officer. Why? Because the heart of the Everything App—simplifying and improving lives through <b>incredible experiences</b> —is the same reason I develop user interfaces. It’s about building something that delights, whether it’s a seamless payment flow or a perfect, surprising confection.
+            </p>
+
+            <p>
+                The CCO role, as you've described it, isn't just about sampling; it's about setting philosophy, creating moments of surprise, and turning cravings into trends. These are all <b>product development challenges</b> that thrive on the same principles as superior frontend engineering: <b>fearless experimentation, hands-on iteration, and zero tolerance for melting under pressure.</b>
+            </p>
+
+            <!-- Interactive Section -->
+            <div class="mt-10 pt-6 border-t border-yellow-800 space-y-4">
+                <h2 class="text-2xl font-bold golden-text mb-4">My Everything Mix (Click to Reveal the Ingredients)</h2>
+
+                <!-- Ingredient 1: The Smooth Frontend -->
+                <div class="bg-[#6D4C41] p-4 rounded-lg">
+                    <button id="btn-sweet" class="interactive-button w-full text-left p-3 rounded-lg bg-yellow-600 hover:bg-yellow-700 text-white font-semibold flex justify-between items-center" onclick="toggleContent('content-sweet')">
+                        <span>1. The Sweet Tooth & Hands-On Experience (Frontend UX)</span>
+                        <span id="icon-sweet" class="text-xl">+</span>
+                    </button>
+                    <div id="content-sweet" class="interactive-content text-yellow-100">
+                        <p><strong>CCO Need: A hands-on approach to shaping incredible experiences.</strong></p>
+                        <p class="text-sm mt-2">
+                            As a frontend developer, my core focus is User Experience (UX). I don't just write code; I <b>shape the digital experience</b>. This translates directly into shaping the physical, edible experience. I know how to iterate rapidly, observe user/customer response (taste-test feedback), and craft a final product (the perfect chocolate) that is not just functional, but genuinely delightful and memorable.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Ingredient 2: The Bold Innovation -->
+                <div class="bg-[#6D4C41] p-4 rounded-lg">
+                    <button id="btn-bold" class="interactive-button w-full text-left p-3 rounded-lg bg-yellow-600 hover:bg-yellow-700 text-white font-semibold flex justify-between items-center" onclick="toggleContent('content-bold')">
+                        <span>2. A Taste for Innovation (Rapid Prototyping)</span>
+                        <span id="icon-bold" class="text-xl">+</span>
+                    </button>
+                    <div id="content-bold" class="interactive-content text-yellow-100">
+                        <p><strong>CCO Need: Track record of experimenting fearlessly & turning cravings into trends.</strong></p>
+                        <p class="text-sm mt-2">
+                            In tech, we prototype and A/B test constantly. My experience involves rapid iteration on designs and features. This fearless approach will define Careem's chocolate philosophy: constantly seeking the <b>next great flavor profile or unexpected mix</b> (pretzel or two hundred), making small-batch experiments, and scaling the successes into region-wide trends. I am built to innovate, pixel by pixel, and bean by bean.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Ingredient 3: The Little Nuts -->
+                <div class="bg-[#6D4C41] p-4 rounded-lg">
+                    <button id="btn-nuts" class="interactive-button w-full text-left p-3 rounded-lg bg-yellow-600 hover:bg-yellow-700 text-white font-semibold flex justify-between items-center" onclick="toggleContent('content-nuts')">
+                        <span>3. Zero Fear of Melting (Production Stability)</span>
+                        <span id="icon-nuts" class="text-xl">+</span>
+                    </button>
+                    <div id="content-nuts" class="interactive-content text-yellow-100">
+                        <p><strong>CCO Need: Zero fear of melting under pressure.</strong></p>
+                        <p class="text-sm mt-2">
+                            A live app environment demands stability under extreme load; one wrong line of code can bring down a production deployment. I know how to keep my cool when the deadline is tight or the server is hot. Whether it’s fixing a critical bug or ensuring the chocolate delivery logistics don't melt the product in the summer sun, <b>I am engineered for smooth delivery under pressure.</b>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Closing -->
+            <p class="pt-6">
+                I am ready to use my <b>cracking good sense of fun</b> and product-centric mindset to simplify and improve the lives of Captains and customers through the pure, undeniable delight of chocolate.
+            </p>
+            <p>
+                I look forward to discussing how my experience will deliver on your promise of a job title guaranteed to <b>raise eyebrows</b>.
+            </p>
+            <p class="font-bold golden-text text-xl">
+                Sincerely, <br>
+                Maria Mendonca
+            </p>
+        </div>
+    </div>
+
+    <script>
+        const contentMap = {
+            'content-sweet': 'icon-sweet',
+            'content-bold': 'icon-bold',
+            'content-nuts': 'icon-nuts'
+        };
+
+        /**
+         * Toggles the visibility of the interactive content sections.
+         * @param {string} contentId - The ID of the content div to toggle.
+         */
+        function toggleContent(contentId) {
+            const content = document.getElementById(contentId);
+            const iconId = contentMap[contentId];
+            const icon = document.getElementById(iconId);
+
+            if (content.classList.contains('active')) {
+                // Collapse
+                content.classList.remove('active');
+                icon.textContent = '+';
+            } else {
+                // Expand
+                content.classList.add('active');
+                icon.textContent = '-';
+            }
+        }
+    </script>
+</body>
+</html>
